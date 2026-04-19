@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-deep-bg: #121212;
+  --color-primary-surface: #1E1E1E;
+  --color-secondary-surface: #2B2B2B;
+  --color-accent: #FF8400;
+  --color-primary-text: #E1E1E1;
+  --color-secondary-text: #8C8C8C;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-deep-bg);
+  color: var(--color-primary-text);
+  font-family: 'Geist', system-ui, sans-serif;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-accent {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-accent {
+  animation: pulse-accent 2s ease-in-out infinite;
+}
