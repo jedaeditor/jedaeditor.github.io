@@ -104,7 +104,8 @@
     "description": "Download Jeda free and start creating tighter, more engaging videos in minutes.",
     "macos": "Download for macOS",
     "windows": "Download for Windows",
-    "version": ""
+    "version": "",
+    "pricing": "$5.99"
   },
   "footer": {
     "builtWith": ""
