@@ -75,9 +75,7 @@ export function Hero({ onOpenModal }: HeroProps) {
                 </div>
               </div>
               <video ref={videoRef} className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ${isPlaying ? 'opacity-100' : 'opacity-0'}`} onEnded={() => setIsPlaying(false)}>
-                <source src="/assets/videos/demo.mkv" type="video/x-matroska" />
-                <source src="/assets/videos/demo.mp4" type="video/mp4" />
-                <source src="/assets/videos/demo.webm" type="video/webm" />
+                <source src="/assets/videos/demo.m4v" type="video/mp4" />
               </video>
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <motion.button 

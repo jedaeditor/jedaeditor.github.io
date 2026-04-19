@@ -38,9 +38,7 @@ export function VideoModal({ isOpen, onClose }: VideoModalProps) {
         </button>
         <div className="relative bg-[#1E1E1E] rounded-2xl border border-white/10 overflow-hidden shadow-2xl">
           <video ref={modalVideoRef} className="w-full aspect-video object-contain" controls autoPlay>
-            <source src="/assets/videos/demo.mkv" type="video/x-matroska" />
-            <source src="/assets/videos/demo.mp4" type="video/mp4" />
-            <source src="/assets/videos/demo.webm" type="video/webm" />
+            <source src="/assets/videos/demo.m4v" type="video/mp4" />
           </video>
         </div>
       </motion.div>
