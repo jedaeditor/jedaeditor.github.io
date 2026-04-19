@@ -2,52 +2,52 @@
   "nav": {
     "features": "Fitur",
     "download": "Unduh",
-    "getStarted": "Unduh"
+    "getStarted": "Unduh Sekarang"
   },
   "hero": {
     "badge": "Tersedia untuk macOS & Windows",
     "title": "Potong keheningan.",
-    "subtitle": "Simpan kontennya.",
-    "description": "Jeda secara otomatis mendeteksi dan menghapus bagian hening dari video Anda. Sempurna untuk membuat silent cuts yang menarik atau kompilasi pesan away.",
-    "download": "Unduh",
+    "subtitle": "Simpan setiap momen berharga.",
+    "description": "Jeda secara otomatis mendeteksi dan menghapus bagian hening dari video Anda. —hanya dalam hitungan detik.",
+    "download": "Unduh Gratis",
     "learnMore": "Pelajari Lebih Lanjut",
-    "demoPreview": "Pratinjau Demo",
+    "demoPreview": "Lihat Demo",
     "demoSubtitle": "Jeda dalam aksi",
     "expandDemo": "Perbesar demo"
   },
   "features": {
-    "title": "Semuanya yang Anda butuhkan untuk mengedit lebih cepat",
+    "title": "Semua yang Anda butuhkan untuk mengedit lebih cepat",
     "description": "Fitur canggih yang dirancang untuk menyederhanakan alur kerja pengeditan video Anda.",
     "items": [
       {
-        "title": "Deteksi Keheningan",
-        "description": "Deteksi bagian hening secara otomatis dengan sensitivitas yang dapat disesuaikan."
+        "title": "Deteksi Keheningan Otomatis",
+        "description": "Deteksi bagian hening secara instan dengan sensitivitas yang bisa Anda sesuaikan sendiri."
       },
       {
-        "title": "Timeline Visual",
-        "description": "Lihat visualisasi waveform dengan wilayah hening yang disorot."
+        "title": "Visual Timeline Interaktif",
+        "description": "Lihat waveform video dengan wilayah hening yang jelas terlihat dan mudah diedit."
       },
       {
-        "title": "Potongan yang Dapat Disesuaikan",
-        "description": "Seret titik potong untuk menyempurnakan setiap wilayah hening."
+        "title": "Atur Potongan dengan Presisi",
+        "description": "Seret titik potong untuk menyempurnakan setiap wilayah hening sesuai keinginan."
       },
       {
-        "title": "Pemutaran Loncat",
-        "description": "Pratinjau hasil potong akhir dengan melewati keheningan saat pemutaran."
+        "title": "Jump Playback",
+        "description": "Pratinjau hasil akhir dengan melewati keheningan—pastikan video Anda mengalir sempurna."
       },
       {
-        "title": "Rentang Render",
-        "description": "Pilih bagian video yang akan diproses dengan slider rentang."
+        "title": "Render Range Fleksibel",
+        "description": "Pilih bagian video yang ingin diproses dengan slider rentang yang intuitif."
       },
       {
         "title": "Ekspor dengan FFmpeg",
-        "description": "Potong video menggunakan FFmpeg yang dibundel dengan aplikasi untuk pemrosesan yang andal."
+        "description": "Potong dan simpan video menggunakan FFmpeg yang sudah included untuk hasil yang andal."
       }
     ]
   },
   "presets": {
     "title": "Preset deteksi cerdas",
-    "description": "Pilih dari pengaturan deteksi yang telah dikonfigurasi sebelumnya yang dioptimalkan untuk berbagai jenis video, atau sesuaikan parameter Anda sendiri untuk kontrol yang tepat.",
+    "description": "Pilih dari pengaturan deteksi yang sudah dioptimalkan untuk berbagai jenis video, atau kustomisasi sendiri untuk kontrol yang lebih tepat.",
     "names": [
       "Default",
       "Talking Head",
@@ -56,8 +56,8 @@
       "Gentle"
     ],
     "params": {
-      "threshold": "Ambang Batas",
-      "minDuration": "Durasi Min",
+      "threshold": "Threshold",
+      "minDuration": "Min Duration",
       "padding": "Padding"
     }
   },
@@ -83,7 +83,7 @@
       },
       {
         "key": "J",
-        "action": "Toggle Pemutaran Loncat"
+        "action": "Toggle Jump Playback"
       },
       {
         "key": "Ctrl+Z",
@@ -100,13 +100,13 @@
     ]
   },
   "download": {
-    "title": "Siap mempercepat alur kerja Anda?",
-    "description": "Unduh Jeda gratis dan mulai membuat video yang lebih menarik dan lebih padat dalamhitam.",
+    "title": "Siap tingkatkan kualitas video Anda?",
+    "description": "Unduh Jeda gratis sekarang dan buat video yang lebih menarik dan lebih padat dalam hitungan menit.",
     "macos": "Unduh untuk macOS",
     "windows": "Unduh untuk Windows",
-    "version": "Versi 1.0.0 - Gratis dan open source"
+    "version": ""
   },
   "footer": {
-    "builtWith": "Dibuat dengan Electron + React"
+    "builtWith": ""
   }
 }

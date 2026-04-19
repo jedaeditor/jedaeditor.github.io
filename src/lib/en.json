@@ -8,7 +8,7 @@
     "badge": "Now available for macOS & Windows",
     "title": "Cut the silence.",
     "subtitle": "Keep the content.",
-    "description": "Jeda automatically detects and removes silent sections from your videos. Perfect for creating tight, engaging silent cuts or away messages compilations.",
+    "description": "Jeda automatically detects and removes silent sections from your videos. —within seconds.",
     "download": "Download",
     "learnMore": "Learn More",
     "demoPreview": "Demo Preview",
@@ -104,9 +104,9 @@
     "description": "Download Jeda free and start creating tighter, more engaging videos in minutes.",
     "macos": "Download for macOS",
     "windows": "Download for Windows",
-    "version": "Version 1.0.0 - Free and open source"
+    "version": ""
   },
   "footer": {
-    "builtWith": "Built with Electron + React"
+    "builtWith": ""
   }
 }
