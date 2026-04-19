@@ -107,7 +107,15 @@
     "version": "",
     "pricing": "IDR 99.000"
   },
+  "support": {
+    "title": "Punya pertanyaan atau permintaan fitur?",
+    "description": "Kami ingin mendengar dari Anda. Laporkan bug, minta fitur, atau sekadar menyapa.",
+    "github": "GitHub",
+    "githubDesc": "Laporkan bug dan minta fitur",
+    "email": "Email",
+    "emailDesc": "Kirim pesan kepada kami"
+  },
   "footer": {
-    "builtWith": ""
+    "builtWith": "Dibuat dengan Electron + React"
   }
 }

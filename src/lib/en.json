@@ -107,6 +107,14 @@
     "version": "",
     "pricing": "$5.99"
   },
+  "support": {
+    "title": "Have a question or feature request?",
+    "description": "We love to hear from you. Submit issues, feature requests, or just say hello.",
+    "github": "GitHub",
+    "githubDesc": "Report bugs and feature requests",
+    "email": "Email",
+    "emailDesc": "Send us a message"
+  },
   "footer": {
     "builtWith": ""
   }
