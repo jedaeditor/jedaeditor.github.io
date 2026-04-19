@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "features": "Fitur",
+    "download": "Unduh",
+    "getStarted": "Unduh"
+  },
+  "hero": {
+    "badge": "Tersedia untuk macOS & Windows",
+    "title": "Potong keheningan.",
+    "subtitle": "Simpan kontennya.",
+    "description": "Jeda secara otomatis mendeteksi dan menghapus bagian hening dari video Anda. Sempurna untuk membuat silent cuts yang menarik atau kompilasi pesan away.",
+    "download": "Unduh",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "demoPreview": "Pratinjau Demo",
+    "demoSubtitle": "Jeda dalam aksi",
+    "expandDemo": "Perbesar demo"
+  },
+  "features": {
+    "title": "Semuanya yang Anda butuhkan untuk mengedit lebih cepat",
+    "description": "Fitur canggih yang dirancang untuk menyederhanakan alur kerja pengeditan video Anda.",
+    "items": [
+      {
+        "title": "Deteksi Keheningan",
+        "description": "Deteksi bagian hening secara otomatis dengan sensitivitas yang dapat disesuaikan."
+      },
+      {
+        "title": "Timeline Visual",
+        "description": "Lihat visualisasi waveform dengan wilayah hening yang disorot."
+      },
+      {
+        "title": "Potongan yang Dapat Disesuaikan",
+        "description": "Seret titik potong untuk menyempurnakan setiap wilayah hening."
+      },
+      {
+        "title": "Pemutaran Loncat",
+        "description": "Pratinjau hasil potong akhir dengan melewati keheningan saat pemutaran."
+      },
+      {
+        "title": "Rentang Render",
+        "description": "Pilih bagian video yang akan diproses dengan slider rentang."
+      },
+      {
+        "title": "Ekspor dengan FFmpeg",
+        "description": "Potong video menggunakan FFmpeg yang dibundel dengan aplikasi untuk pemrosesan yang andal."
+      }
+    ]
+  },
+  "presets": {
+    "title": "Preset deteksi cerdas",
+    "description": "Pilih dari pengaturan deteksi yang telah dikonfigurasi sebelumnya yang dioptimalkan untuk berbagai jenis video, atau sesuaikan parameter Anda sendiri untuk kontrol yang tepat.",
+    "names": [
+      "Default",
+      "Talking Head",
+      "Podcast",
+      "Aggressive Cut",
+      "Gentle"
+    ],
+    "params": {
+      "threshold": "Ambang Batas",
+      "minDuration": "Durasi Min",
+      "padding": "Padding"
+    }
+  },
+  "shortcuts": {
+    "title": "Pintasan keyboard untuk kecepatan",
+    "description": "Bekerja lebih cepat dengan pintasan keyboard yang intuitif",
+    "items": [
+      {
+        "key": "Ctrl+O",
+        "action": "Buka video"
+      },
+      {
+        "key": "Ctrl+D",
+        "action": "Deteksi keheningan"
+      },
+      {
+        "key": "Ctrl+E",
+        "action": "Potong/Ekspor"
+      },
+      {
+        "key": "Space",
+        "action": "Putar/Jeda"
+      },
+      {
+        "key": "J",
+        "action": "Toggle Pemutaran Loncat"
+      },
+      {
+        "key": "Ctrl+Z",
+        "action": "Urungkan"
+      },
+      {
+        "key": "Ctrl+Y",
+        "action": "Ulangi"
+      },
+      {
+        "key": "+ / -",
+        "action": "Zoom timeline"
+      }
+    ]
+  },
+  "download": {
+    "title": "Siap mempercepat alur kerja Anda?",
+    "description": "Unduh Jeda gratis dan mulai membuat video yang lebih menarik dan lebih padat dalamhitam.",
+    "macos": "Unduh untuk macOS",
+    "windows": "Unduh untuk Windows",
+    "version": "Versi 1.0.0 - Gratis dan open source"
+  },
+  "footer": {
+    "builtWith": "Dibuat dengan Electron + React"
+  }
+}

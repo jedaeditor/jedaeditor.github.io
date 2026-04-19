@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "features": "Features",
+    "download": "Download",
+    "getStarted": "Download"
+  },
+  "hero": {
+    "badge": "Now available for macOS & Windows",
+    "title": "Cut the silence.",
+    "subtitle": "Keep the content.",
+    "description": "Jeda automatically detects and removes silent sections from your videos. Perfect for creating tight, engaging silent cuts or away messages compilations.",
+    "download": "Download",
+    "learnMore": "Learn More",
+    "demoPreview": "Demo Preview",
+    "demoSubtitle": "Jeda in action",
+    "expandDemo": "Expand demo"
+  },
+  "features": {
+    "title": "Everything you need to edit faster",
+    "description": "Powerful features designed to streamline your video editing workflow.",
+    "items": [
+      {
+        "title": "Silence Detection",
+        "description": "Automatically detect silent sections with adjustable sensitivity."
+      },
+      {
+        "title": "Visual Timeline",
+        "description": "See waveform visualization with highlighted silence regions."
+      },
+      {
+        "title": "Adjustable Cuts",
+        "description": "Drag cut points to fine-tune each silence region."
+      },
+      {
+        "title": "Jump Playback",
+        "description": "Preview the final cut result by skipping silence during playback."
+      },
+      {
+        "title": "Render Range",
+        "description": "Choose which portion of the video to process with range sliders."
+      },
+      {
+        "title": "Export with FFmpeg",
+        "description": "Cut video using FFmpeg bundled with the app for reliable processing."
+      }
+    ]
+  },
+  "presets": {
+    "title": "Smart detection presets",
+    "description": "Choose from pre-configured detection settings optimized for different video types, or customize your own parameters for precise control.",
+    "names": [
+      "Default",
+      "Talking Head",
+      "Podcast",
+      "Aggressive Cut",
+      "Gentle"
+    ],
+    "params": {
+      "threshold": "Threshold",
+      "minDuration": "Min Duration",
+      "padding": "Padding"
+    }
+  },
+  "shortcuts": {
+    "title": "Keyboard shortcuts for speed",
+    "description": "Work faster with intuitive keyboard shortcuts",
+    "items": [
+      {
+        "key": "Ctrl+O",
+        "action": "Open video"
+      },
+      {
+        "key": "Ctrl+D",
+        "action": "Detect silence"
+      },
+      {
+        "key": "Ctrl+E",
+        "action": "Cut/Export"
+      },
+      {
+        "key": "Space",
+        "action": "Play/Pause"
+      },
+      {
+        "key": "J",
+        "action": "Toggle Jump Playback"
+      },
+      {
+        "key": "Ctrl+Z",
+        "action": "Undo"
+      },
+      {
+        "key": "Ctrl+Y",
+        "action": "Redo"
+      },
+      {
+        "key": "+ / -",
+        "action": "Zoom timeline"
+      }
+    ]
+  },
+  "download": {
+    "title": "Ready to speed up your workflow?",
+    "description": "Download Jeda free and start creating tighter, more engaging videos in minutes.",
+    "macos": "Download for macOS",
+    "windows": "Download for Windows",
+    "version": "Version 1.0.0 - Free and open source"
+  },
+  "footer": {
+    "builtWith": "Built with Electron + React"
+  }
+}
