@@ -3,6 +3,21 @@
 import { motion } from 'framer-motion';
 import { useLang } from '@/lib/LangContext';
 
+const WaveformPattern = () => (
+  <svg className="w-full h-full opacity-[0.03]" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="waveform" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M0 20 Q5 10 10 20 T20 20 T30 20 T40 20" fill="none" stroke="#FF8400" strokeWidth="1.5" />
+        <rect x="0" y="0" width="1" height="40" fill="#FF8400" opacity="0.3" />
+        <rect x="10" y="0" width="1" height="40" fill="#FF8400" opacity="0.3" />
+        <rect x="20" y="0" width="1" height="40" fill="#FF8400" opacity="0.3" />
+        <rect x="30" y="0" width="1" height="40" fill="#FF8400" opacity="0.3" />
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#waveform)" />
+  </svg>
+);
+
 const iconPaths = [
   'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z',
   'M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z',
@@ -16,8 +31,11 @@ export function Features() {
   const { t } = useLang();
 
   return (
-    <section id="features" className="py-20 px-6 bg-[#1E1E1E]/50">
-      <div className="max-w-7xl mx-auto">
+    <section id="features" className="py-20 px-6 bg-[#1E1E1E]/50 relative overflow-hidden">
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <WaveformPattern />
+      </div>
+      <div className="max-w-7xl mx-auto relative z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-[#E1E1E1] mb-4">{t.features.title}</h2>
           <p className="text-[#8C8C8C] max-w-[60ch] mx-auto">{t.features.description}</p>
