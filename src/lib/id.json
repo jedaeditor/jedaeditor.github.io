@@ -116,6 +116,6 @@
     "emailDesc": "Kirim pesan kepada kami"
   },
   "footer": {
-    "builtWith": "Dibuat dengan Electron + React"
+    "builtWith": ""
   }
 }
