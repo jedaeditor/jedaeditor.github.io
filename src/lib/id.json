@@ -9,7 +9,7 @@
     "title": "Potong keheningan.",
     "subtitle": "Simpan setiap momen berharga.",
     "description": "Jeda secara otomatis mendeteksi dan menghapus bagian hening dari video Anda. —hanya dalam hitungan detik.",
-    "download": "Unduh Gratis",
+    "download": "Unduh",
     "learnMore": "Pelajari Lebih Lanjut",
     "demoPreview": "Lihat Demo",
     "demoSubtitle": "Jeda dalam aksi",
@@ -101,11 +101,11 @@
   },
   "download": {
     "title": "Siap tingkatkan kualitas video Anda?",
-    "description": "Unduh Jeda gratis sekarang dan buat video yang lebih menarik dan lebih padat dalam hitungan menit.",
+    "description": "Unduh Jeda sekarang dan buat video yang lebih padat dalam hitungan menit.",
     "macos": "Unduh untuk macOS",
     "windows": "Unduh untuk Windows",
     "version": "",
-    "pricing": "Rp 99.000"
+    "pricing": "IDR 99.000"
   },
   "footer": {
     "builtWith": ""
