@@ -105,7 +105,7 @@
     "macos": "Download for macOS",
     "windows": "Download for Windows",
     "version": "",
-    "pricing": "$5.99"
+    "pricing": "$5.99", "discountPricing": "$2.99"
   },
   "support": {
     "title": "Have a question or feature request?",

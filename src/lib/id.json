@@ -105,7 +105,7 @@
     "macos": "Unduh untuk macOS",
     "windows": "Unduh untuk Windows",
     "version": "",
-    "pricing": "IDR 99.000"
+    "pricing": "IDR 99.000", "discountPricing": "IDR 49.000"
   },
   "support": {
     "title": "Punya pertanyaan atau permintaan fitur?",
