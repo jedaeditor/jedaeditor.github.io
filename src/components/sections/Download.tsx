@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 import { useLang } from '@/lib/LangContext';
 
-const macosUrl = process.env.NEXT_PUBLIC_MACOS_DOWNLOAD_URL || '#';
-const windowsUrl = process.env.NEXT_PUBLIC_WINDOWS_DOWNLOAD_URL || '#';
+const macosUrl = process.env.NEXT_PUBLIC_MACOS_DOWNLOAD_URL || 'https://shafarizkyf.myr.id/catalog/jeda-editor';
+const windowsUrl = process.env.NEXT_PUBLIC_WINDOWS_DOWNLOAD_URL || 'https://shafarizkyf.myr.id/catalog/jeda-editor';
 
 export function Download() {
   const { t } = useLang();
