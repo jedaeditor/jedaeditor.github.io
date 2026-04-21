@@ -105,7 +105,8 @@
     "macos": "Unduh untuk macOS",
     "windows": "Unduh untuk Windows",
     "version": "",
-    "pricing": "IDR 99.000", "discountPricing": "IDR 49.000"
+    "pricing": "IDR 99.000",
+    "discountPricing": "IDR 49.000"
   },
   "support": {
     "title": "Punya pertanyaan atau permintaan fitur?",
@@ -117,5 +118,10 @@
   },
   "footer": {
     "builtWith": ""
+  },
+  "videoFormats": {
+    "title": "Dukungan format video",
+    "description": "Jeda mendukung semua format video populer.",
+    "note": "*Di Windows, file .mov dan .avi mungkin memerlukan transcoding ke format yang kompatibel (H.264/AAC)."
   }
 }

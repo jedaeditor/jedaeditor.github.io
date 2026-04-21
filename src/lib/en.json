@@ -105,7 +105,8 @@
     "macos": "Download for macOS",
     "windows": "Download for Windows",
     "version": "",
-    "pricing": "$5.99", "discountPricing": "$2.99"
+    "pricing": "$5.99",
+    "discountPricing": "$2.99"
   },
   "support": {
     "title": "Have a question or feature request?",
@@ -117,5 +118,10 @@
   },
   "footer": {
     "builtWith": ""
+  },
+  "videoFormats": {
+    "title": "Video format support",
+    "description": "Jeda supports all popular video formats out of the box.",
+    "note": "*On Windows, .mov and .avi files may require transcoding to a web-compatible format (H.264/AAC)."
   }
 }

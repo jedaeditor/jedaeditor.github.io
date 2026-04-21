@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Navbar, Hero, Features, Presets, Shortcuts, Download, Support, Footer } from '@/components/sections';
+import { Navbar, Hero, Features, Presets, VideoFormats, Shortcuts, Download, Support, Footer } from '@/components/sections';
 import { VideoModal } from '@/components/VideoModal';
 
 export default function Home() {
@@ -16,6 +16,7 @@ export default function Home() {
       <Hero onOpenModal={openModal} />
       <Features />
       <Presets />
+      <VideoFormats />
       <Shortcuts />
       <Download />
       <Support />

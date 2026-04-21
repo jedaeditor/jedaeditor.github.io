@@ -2,6 +2,7 @@ export { Navbar } from './Navbar';
 export { Hero } from './Hero';
 export { Features } from './Features';
 export { Presets } from './Presets';
+export { VideoFormats } from './VideoFormats';
 export { Shortcuts } from './Shortcuts';
 export { Download } from './Download';
 export { Support } from './Support';
