@@ -26,6 +26,18 @@ export function Hero({ onOpenModal }: HeroProps) {
     }
   };
 
+  const pauseVideo = () => {
+    if (videoRef.current && isPlaying) {
+      videoRef.current.pause();
+      setIsPlaying(false);
+    }
+  };
+
+  const handleOpenModal = () => {
+    pauseVideo();
+    onOpenModal();
+  };
+
   return (
     <section className="pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
@@ -87,7 +99,7 @@ export function Hero({ onOpenModal }: HeroProps) {
                   {isPlaying ? <svg className="w-6 h-6 text-[#121212]" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg> : <svg className="w-6 h-6 text-[#121212] ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>}
                 </motion.button>
               </div>
-              <button onClick={onOpenModal} className="absolute top-4 right-4 w-8 h-8 bg-[#1E1E1E]/80 rounded-lg flex items-center justify-center hover:bg-[#2B2B2B] transition-colors pointer-events-auto">
+              <button onClick={handleOpenModal} className="absolute top-4 right-4 w-8 h-8 bg-[#1E1E1E]/80 rounded-lg flex items-center justify-center hover:bg-[#2B2B2B] transition-colors pointer-events-auto">
                 <svg className="w-4 h-4 text-[#E1E1E1]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" /></svg>
               </button>
               <div className={`absolute bottom-4 left-4 right-4 flex items-center justify-between pointer-events-none transition-opacity duration-300 ${isPlaying ? 'opacity-0' : 'opacity-100'}`}>
