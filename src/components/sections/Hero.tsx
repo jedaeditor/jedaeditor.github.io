@@ -45,7 +45,7 @@ export function Hero({ onOpenModal }: HeroProps) {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2B2B2B] border border-white/10 mb-6">
               <span className="w-2 h-2 rounded-full bg-[#FF8400] animate-pulse"></span>
-              <span className="text-xs text-[#8C8C8C]">{t.hero.badge}</span>
+              <span className="text-xs text-[#A0A0A0]">{t.hero.badge}</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-[#E1E1E1] leading-[1.1] mb-6">
               {t.hero.title}<br/><span className="text-[#FF8400]">{t.hero.subtitle}</span>
@@ -104,7 +104,7 @@ export function Hero({ onOpenModal }: HeroProps) {
                 <svg className="w-4 h-4 text-[#E1E1E1]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" /></svg>
               </button>
               <div className={`absolute bottom-4 left-4 right-4 flex items-center justify-between pointer-events-none transition-opacity duration-300 ${isPlaying ? 'opacity-0' : 'opacity-100'}`}>
-                <span className="text-xs text-[#8C8C8C]">{t.hero.demoPreview}</span>
+                <span className="text-xs text-[#A0A0A0]">{t.hero.demoPreview}</span>
                 <span className="text-xs text-[#FF8400]">{t.hero.demoSubtitle}</span>
               </div>
             </div>
