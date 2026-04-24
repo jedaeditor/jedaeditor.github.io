@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.560
+To use the application is very easy, so this is the initial display of
+
+00:00:03.560 --> 00:00:08.520
+the application, let's zoom in, you can click here to open
+
+00:00:08.520 --> 00:00:11.600
+the file, and what I like is that the layout is adaptive,
+
+00:00:11.680 --> 00:00:15.260
+so for example if I choose a video like this,
+
+00:00:15.340 --> 00:00:19.560
+16:9 then the layout looks like this, but if I use a format that
+
+00:00:19.560 --> 00:00:23.640
+is vertical, like in Shorts or Reels, the layout will adapt like this,
+
+00:00:23.780 --> 00:00:28.540
+and this can also be adjusted for length and width. Here we have
+
+00:00:28.540 --> 00:00:33.200
+several sections, the main one being the detection section,
+
+00:00:33.460 --> 00:00:37.020
+so this is the sound wave, this is the unedited video,
+
+00:00:37.120 --> 00:00:41.480
+there are many empty sections like this, this can be zoomed in,
+
+00:00:41.860 --> 00:00:45.280
+zooming out, you can see there are many empty sections,
+
+00:00:45.700 --> 00:00:49.640
+we can go straight to detect, there are also several presets available,
+
+00:00:49.860 --> 00:00:52.780
+I'll just select default, then select detect silence,
+
+00:00:53.640 --> 00:00:58.580
+after a while, these segments will appear. We can
+
+00:00:58.580 --> 00:01:01.940
+zoom in, we can see there are silent sections,
+
+00:01:02.020 --> 00:01:05.820
+there's silence here, there's silence here, and the threshold can be adjusted
+
+00:01:05.820 --> 00:01:09.540
+of course, here the silence sections are. This can be shifted to
+
+00:01:09.740 --> 00:01:12.620
+view the whole thing, and it's quite accurate,
+
+00:01:12.960 --> 00:01:15.620
+if you want to edit, you can just click here,
+
+00:01:15.680 --> 00:01:19.880
+the edit section, can be edited, or removed,
+
+00:01:19.980 --> 00:01:24.420
+the unsuitable parts. And here you can see, the resulting video duration
+
+00:01:24.420 --> 00:01:29.100
+is 23 minutes, if we render, we export,
+
+00:01:29.320 --> 00:01:34.200
+that's 8 minutes total, after cutting. And if we want to cut
+
+00:01:34.200 --> 00:01:38.420
+part of it, we can take just a part, here if we don't want to
+
+00:01:38.420 --> 00:01:42.440
+take the entire video, just a specific part,
+
+00:01:42.580 --> 00:01:46.260
+this is possible. For example, I want to take from
+
+00:01:46.260 --> 00:01:50.900
+minute 0 to minute 1.46, the estimated result is
+
+00:01:50.900 --> 00:01:55.800
+58 seconds. That's because the empty parts have been removed,
+
+00:01:55.880 --> 00:01:58.460
+the empty sections. Okay, let's try
+
+00:01:58.700 --> 00:02:03.400
+cutting. I'll just use this one,
+
+00:02:03.660 --> 00:02:08.419
+replace, okay. And this will start the rendering process. And here
+
+00:02:08.419 --> 00:02:12.700
+you can see, the result matches, 58 seconds, and here 58 seconds.
+
+00:02:13.060 --> 00:02:18.040
+The result can be checked later. Of course, we can also preview here,
+
+00:02:18.360 --> 00:02:22.220
+press space. So this button's function is to jump,
+
+00:02:22.360 --> 00:02:25.580
+or jump. So basically this button is to simulate
+
+00:02:26.140 --> 00:02:29.920
+how each segment will look before rendering. Although not perfect
+
+00:02:29.920 --> 00:02:33.880
+for now, but I'll try to improve it. And that's how
+
+00:02:33.940 --> 00:02:37.760
+to use the software. And if there are questions, criticism or suggestions,
+
+00:02:37.860 --> 00:02:41.460
+or feature requests, you can go to the contact section, we can discuss there.
+
+00:02:41.600 --> 00:02:42.740
+Thank you, see you next time.
