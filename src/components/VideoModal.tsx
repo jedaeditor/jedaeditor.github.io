@@ -39,6 +39,7 @@ export function VideoModal({ isOpen, onClose }: VideoModalProps) {
         <div className="relative bg-[#1E1E1E] rounded-2xl border border-white/10 overflow-hidden shadow-2xl">
           <video ref={modalVideoRef} className="w-full aspect-video object-contain" controls autoPlay>
             <source src="/assets/videos/demo.m4v" type="video/mp4" />
+            <track kind="captions" src="/assets/videos/demo.m4v.vtt" srcLang="id" label="Indonesia" default />
           </video>
         </div>
       </motion.div>

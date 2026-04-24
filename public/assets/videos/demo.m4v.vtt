@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.560
+Untuk menggunakan aplikasinya sangat mudah, jadi ini adalah tampilan awal dari
+
+00:00:03.560 --> 00:00:08.520
+aplikasinya ya, kita perbesar aja, ini bisa klik disini ya untuk membuka
+
+00:00:08.520 --> 00:00:11.600
+filenya, dan yang saya suka layoutnya ini adaptif ya,
+
+00:00:11.680 --> 00:00:15.260
+jadi misalkan saya pilih video yang seperti ini,
+
+00:00:15.340 --> 00:00:19.560
+16:9 maka layoutnya seperti ini ya, tapi kalau misalkan saya pakai format yang
+
+00:00:19.560 --> 00:00:23.640
+vertikal ya, yang biasa di Short atau Reel, ini layoutnya akan adaptif seperti ini,
+
+00:00:23.780 --> 00:00:28.540
+dan ini juga bisa disesuaikan ya panjang lebarnya. Di sini kita
+
+00:00:28.540 --> 00:00:33.200
+punya beberapa bagian ya, bagian utamanya adalah bagian detection,
+
+00:00:33.460 --> 00:00:37.020
+jadi ini adalah gelombang suaranya, jadi ini video yang belum diedit ya,
+
+00:00:37.120 --> 00:00:41.480
+banyak sekali bagian yang kosong seperti ini, ini bisa di zoom ya,
+
+00:00:41.860 --> 00:00:45.280
+di zoom out, nah bisa dilihat sini ada banyak bagian yang kosong,
+
+00:00:45.700 --> 00:00:49.640
+kita bisa langsung aja ke detect, ini sudah dibuatkan juga beberapa presetnya,
+
+00:00:49.860 --> 00:00:52.780
+saya pilih default aja, kemudian saya pilih detect silence,
+
+00:00:53.640 --> 00:00:58.580
+nanti akan beberapa saat, ini akan muncul potongan-potongannya. Ini kita
+
+00:00:58.580 --> 00:01:01.940
+bisa zoom ya, bisa dilihat, sini ada bagian diamnya memang ya,
+
+00:01:02.020 --> 00:01:05.820
+sini ada bagian diam, sini ada bagian diam, dan ini thresholdnya bisa diatur ya
+
+00:01:05.820 --> 00:01:09.540
+tentu aja ya, sini tentu bagian diamnya ya. Ini bisa digeser ya,
+
+00:01:09.740 --> 00:01:12.620
+untuk melihat secara keseluruhan, dan ini cukup akurat ya,
+
+00:01:12.960 --> 00:01:15.620
+kalau mau diedit tentu bisa, tinggal di klik aja sini ya,
+
+00:01:15.680 --> 00:01:19.880
+bagian edit sini, ya bisa diedit, atau dihapus ya,
+
+00:01:19.980 --> 00:01:24.420
+bagian kurang sesuai. Dan sini bisa diperhatikan, jadi durasi video hasilnya
+
+00:01:24.420 --> 00:01:29.100
+itu 23 menit, kalau misalkan kita render ya, kita export,
+
+00:01:29.320 --> 00:01:34.200
+itu total 8 menit ya, setelah dipotong. Dan kalau misalkan kita mau potong
+
+00:01:34.200 --> 00:01:38.420
+sebagian ya, ini bisa kita ambil sebagian aja, sini misalkan kita nggak mau
+
+00:01:38.420 --> 00:01:42.440
+ngambil semua videonya cukup bagian tertentu aja,
+
+00:01:42.580 --> 00:01:46.260
+ini bisa. Misalkan saya mau ambil dari menit ke 0 sampai ke menit
+
+00:01:46.260 --> 00:01:50.900
+1.46, itu estimasinya hasil video
+
+00:01:50.900 --> 00:01:55.800
+akhirnya adalah 58 detik. Itu karena sudah dibuang ya,
+
+00:01:55.880 --> 00:01:58.460
+yang bagian kosong-kosongnya. Oke, kita akan coba dulu,
+
+00:01:58.700 --> 00:02:03.400
+jadi kita cut. Ini saya pakai yang ini aja,
+
+00:02:03.660 --> 00:02:08.419
+replace, oke. Dan ini akan mulai proses renderingnya. Dan sini
+
+00:02:08.419 --> 00:02:12.700
+bisa dilihat ya, hasilnya sesuai ya, 58 detik, dan sini 58 detik.
+
+00:02:13.060 --> 00:02:18.040
+Ini hasilnya bisa dicek nanti ya. Tentu kita juga bisa preview di bagian sini,
+
+00:02:18.360 --> 00:02:22.220
+bisa pencet spasi. Jadi, tombol ini fungsinya untuk melompat ya,
+
+00:02:22.360 --> 00:02:25.580
+atau jump. Jadi, intinya tombol ini adalah untuk mensimulasikan ya,
+
+00:02:26.140 --> 00:02:29.920
+bagaimana hasil tiap potongan sebelum di-render. Meskipun belum sempurna untuk
+
+00:02:29.920 --> 00:02:33.880
+saat ini, tapi saya akan usahakan untuk disempurnakan. Dan seperti itu,
+
+00:02:33.940 --> 00:02:37.760
+cara penggunaan software-nya. Dan jika ada pertanyaan, kritik maupun saran,
+
+00:02:37.860 --> 00:02:41.460
+atau request fitur, bisa ke kolom kontak, nanti kita bisa diskusi di sana.
+
+00:02:41.600 --> 00:02:42.740
+Terima kasih, sampai jumpa.
