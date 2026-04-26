@@ -106,7 +106,9 @@
     "windows": "Unduh untuk Windows",
     "version": "",
     "pricing": "IDR 99.000",
-    "discountPricing": "IDR 49.000"
+    "discountPricing": "IDR 49.000",
+    "trial": "Coba Gratis",
+    "trialUrl": "https://bit.ly/jeda-editor-trial"
   },
   "support": {
     "title": "Punya pertanyaan atau permintaan fitur?",

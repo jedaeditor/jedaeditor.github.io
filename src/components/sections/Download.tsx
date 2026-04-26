@@ -40,6 +40,10 @@ export function Download() {
                 {t.download.windows}
               </a>
             </div>
+            <a href={t.download.trialUrl || '#'} target="_blank" className="mt-4 inline-flex items-center gap-2 text-[#8C8C8C] hover:text-[#FF8400] transition-colors text-sm">
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              {t.download.trial || 'Try Free'}
+            </a>
             <p className="mt-6 text-sm text-[#8C8C8C]">{t.download.version}</p>
           </div>
         </motion.div>

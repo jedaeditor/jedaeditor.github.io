@@ -106,7 +106,9 @@
     "windows": "Download for Windows",
     "version": "",
     "pricing": "$5.99",
-    "discountPricing": "$2.99"
+    "discountPricing": "$2.99",
+    "trial": "Try Free",
+    "trialUrl": "https://bit.ly/jeda-editor-trial"
   },
   "support": {
     "title": "Have a question or feature request?",
