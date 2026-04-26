@@ -72,6 +72,16 @@ Jeda analyzes video files to detect silence sections, allowing users to automati
 | MOV | Direct | Transcode* |
 | AVI | Direct | Transcode* |
 
+### Audio
+| Format | Support |
+|--------|---------|
+| MP3 | Direct |
+| WAV | Direct |
+| FLAC | Direct |
+| AAC | Direct |
+| OGG | Direct |
+| M4A | Direct |
+
 *On Windows, some formats (.mov, .avi) use codecs not supported by the browser. The app will ask to transcode to a web-compatible format (H.264/AAC) before playback. This is automatic on macOS.
 
 ## Installation

@@ -122,6 +122,8 @@
   "videoFormats": {
     "title": "Dukungan format video",
     "description": "Jeda mendukung semua format video populer.",
-    "note": "*Di Windows, file .mov dan .avi mungkin memerlukan transcoding ke format yang kompatibel (H.264/AAC)."
+    "note": "*Di Windows, file .mov dan .avi mungkin memerlukan transcoding ke format yang kompatibel (H.264/AAC).",
+    "audioTitle": "Format Audio",
+    "videoTitle": "Format Video"
   }
 }
