@@ -120,8 +120,8 @@
     "builtWith": ""
   },
   "videoFormats": {
-    "title": "Video format support",
-    "description": "Jeda supports all popular video formats out of the box.",
+    "title": "Supported formats",
+    "description": "Jeda supports all popular video & audio formats out of the box.",
     "note": "*On Windows, .mov and .avi files may require transcoding to a web-compatible format (H.264/AAC).",
     "audioTitle": "Audio Formats",
     "videoTitle": "Video Formats"
